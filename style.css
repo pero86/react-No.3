@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    
+}
+body {
+    margin: auto;
+    font-family: 'Inter', sans-serif;
+    width: 550px;
+    
+}
+.card {
+    display: flex;
+    padding: 30px;
+    
+    
+}
+nav {
+    margin: 0;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+    background: #F55A5A;
+    padding-top: 8px;
+    
+}
+.nav--logo {
+    justify-items: center;
+    width: 24px;
+    height: 24px;
+    margin: 8px;
+}
+h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.4608px;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+
+    color: #FFFFFF;
+}
+.card--image {
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+}
+.card--stats {
+    display: flex;
+    flex-direction: column;
+    padding-left: 19px;
+    padding-right: 40px;
+    margin-top: 8px;
+}
+.path--logo {
+    width: 7px;
+    height: 9.55px;
+    margin-right: 4px;
+}
+.card--location {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    margin-bottom: -35px;
+}
+.card--map {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    text-decoration-line: underline;
+    margin-left: 12px;
+    color: #918E9B;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+    color: #2B283A;
+}
+.card--title {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2B283A;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.card--dates {
+    display: flex;
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+    margin-top: -35px;
+    color: #2B283A;
+}
+.card--text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #2B283A;
+}
+
