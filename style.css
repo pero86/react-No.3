@@ -1,18 +1,14 @@
 * {
     box-sizing: border-box;
-    
 }
 body {
     margin: auto;
     font-family: 'Inter', sans-serif;
-    width: 550px;
-    
+    width: 550px; 
 }
 .card {
     display: flex;
     padding: 30px;
-    
-    
 }
 nav {
     margin: 0;
@@ -23,22 +19,22 @@ nav {
     text-align: center;
     justify-items: center;
     background: #F55A5A;
-    padding-top: 8px;
-    
+    padding-top: 8px; 
 }
+
 .nav--logo {
     justify-items: center;
     width: 24px;
     height: 24px;
     margin: 8px;
 }
+
 h1 {
     font-style: normal;
     font-weight: 500;
     font-size: 14.4608px;
     line-height: 18px;
     letter-spacing: -0.075em;
-
     color: #FFFFFF;
 }
 .card--image {
